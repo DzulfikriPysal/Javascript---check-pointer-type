@@ -1,12 +1,12 @@
 var context = canvas.getContext("2d");
 if (window.PointerEvent) {
-	canvas.addEventListener("pointermove", paint, false);
+	canvas.addEventListener("pointermove", pointer_type, false);
 }
 else {
-	canvas.addEventListener("mousemove", paint, false);
+	canvas.addEventListener("mousemove", pointer_type, false);
 }
 
-function paint(event) {
+function pointer_type(event) {
 	var squaresize = 10;
 	if (event.pointerType) {
 		switch (event.pointerType) {
