@@ -7,4 +7,4 @@ if its mouse pointer, finger or by using pen on the web application.
 This is useful to see in touchscreen application that require to differentiate
 the pointer type user use on the application
 
-![alt text](screenshot/Capture.PNG "show the type of pointer use by using color to differentiate in canvas") <!-- .element height="50%" width="50%" -->
+![alt text](screenshot/Capture.PNG "show the type of pointer use by using color to differentiate in canvas") {:height="400px" width="400px"}
